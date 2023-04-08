@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    color: #17A2B8;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    color: #17A2B8;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.nav-link:hover {
+    background: #17A2B8;
+    color: #262626;
+    border-radius: 5px;
+}
+
+.nav-link.active {
+    background: #17A2B8;
+    color: #262626;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #646464;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contactForm {
+    background: url('./img/map.jpg') no-repeat center center/cover;
+}
+
+#footer ul a {
+    color: #262626;
+    text-decoration: none;
+}
+
+#footer ul a:hover {
+    color: #17A2B8
+}
+
+#footerLogo {
+    color: #17A2B8;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#footerLogo:hover {
+    color: #262626;
+}
+
+.icon i:hover {
+    color: #17A2B8;
+}
+
+#footerCopy:hover {
+    color: #17A2B8;
+}
+
+@media (min-width:200px) and (max-width:760px) {
+    .icon i {
+        font-size: 1.3rem;
+    }
+    
+    .container {
+        width: 100%;
+    }
+}
