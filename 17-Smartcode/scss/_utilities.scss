@@ -1,0 +1,46 @@
+$font-md: 500;
+$font-sm: 300;
+$font-lg: 900;
+$marginMd: 15px;
+$primaryColor: #fa983a;
+$secColor: #fad390;
+$blackColor: #262626;
+$lightBg: #f6f6f6;
+
+body {
+  font-weight: $font-sm;
+}
+
+p {
+  font-weight: $font-sm;
+  margin-bottom: $marginMd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-md;
+  margin-bottom: $marginMd;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: $font-lg;
+}
+
+.para {
+  font-size: 25px;
+  font-weight: $font-sm;
+}
+
+.btn-hero {
+  background: $primaryColor;
+  color: $lightBg;
+  padding: 20px 50px;
+  border-radius: 35px;
+}
+
+#work {
+  i {
+    color: $primaryColor;
+    font-size: 40px;
+  }
+}

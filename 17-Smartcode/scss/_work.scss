@@ -1,0 +1,13 @@
+#work {
+
+    .card {
+        border-radius: 25px;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 0 10px #ddd;
+
+        &:hover {
+            border-bottom: 1px solid #ddd;
+            box-shadow: 5px 5px 25px #b5b5b5;
+        }
+    }
+}

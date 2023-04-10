@@ -1,0 +1,33 @@
+#newsletter {
+    background: $secColor;
+
+    h4 {
+        color: #fff;
+        padding: 15px 0;
+    }
+    
+    button {
+        background: #fff;
+        color: $blackColor;
+        border-radius: 0;
+        padding: 15px 60px;
+
+        &:hover {
+            background: $primaryColor;
+            color: black;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    #newsletter {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-end {
+        text-align: center !important;
+    }
+}
